@@ -19,12 +19,12 @@ const MainNavigation = () => {
         <ul>
           {!isLoggedIn && (
             <li>
-              <Link to="/auth">Login</Link>
+              <Link to="/Authentication/auth">Login</Link>
             </li>
           )}
           {isLoggedIn && (
             <li>
-              <Link to="/profile">Profile</Link>
+              <Link to="/Authentication/profile">Profile</Link>
             </li>
           )}
           {isLoggedIn && (
